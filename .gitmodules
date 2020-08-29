@@ -1,0 +1,6 @@
+[submodule "quad_pos_ctrl"]
+	path = quad_pos_ctrl
+	url = https://github.com/lhc610github/quad_pos_ctrl
+[submodule "motion_estimator_ukf"]
+	path = motion_estimator_ukf
+	url = https://github.com/lhc610github/motion_estimator_ukf
