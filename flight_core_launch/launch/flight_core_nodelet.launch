@@ -1,0 +1,7 @@
+<launch>
+    <!-- $ rosrun nodelet nodelet manager __name:=sample_nodelet_manager -->
+    <node pkg="nodelet" type="nodelet" args="manager"
+          name="flight_core_nodelet_manager" output="screen" />
+    <include file="$(find quad_pos_ctrl)/launch/ctrl_nodelet.launch"/>
+    <include file="$(find motion_estimator_ukf)/launch/estimator_nodelet.launch"/>
+</launch>
